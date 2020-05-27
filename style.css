@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fredoka+One&display=swap');
+
+
+body {
+    background-image: url(images/pastabg.jpg)
+}
+.clear, .group{display:block;}
+.clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
+.clear, .clear::after, .group, .group::after{clear:both;}
+
+a{outline:none; text-decoration:none;}
+
+
+/*workshops*/
+
+.workshopSection {
+    background-color: lightyellow;
+    opacity: 60%;
+      width: 100%;
+  height: 450px;
+  display:block;
+  position:relative;
+}
+
+.workshopSection a {
+    color: white;
+}
+
+
+.workshopSection a:hover {
+  background-color: gold;
+  color: black;
+}
+
+.workshopSection.active {
+  background-color: white;
+  color: white;
+}
+/* Header/Blog Title */
+.header {
+    padding-top: 5px;
+  font-size: 25px;
+  text-align: center;
+color: darkred;
+
+}
+
+
+
+
+.workshop {
+    background-color: black;
+    display:inline-block; 
+    float:left; 
+    margin:5.5%;
+    margin-right: 5%;;
+    list-style:none; 
+    box-sizing:border-box;
+padding: 5%;
+color: white;}
+
+
+
+
+
+
+/*Lectures*/
+
+.lectures {
+    background-color: brown;
+    display:inline-block; 
+    float:left; 
+    margin-bottom: 2%;
+    margin-left: 15.5%;
+    margin-right: 15%;
+    list-style:none; 
+    box-sizing:border-box;
+padding: 4.4%;
+color: white;
+border-radius: 25%;}
+
+
+
+
+
+/* Fonts
+--------------------------------------------------------------------------------------------------------------- */
+body{font-family: 'Balsamiq Sans', cursive;}
+
+
+
+
+
+#topbar, #intro{display:block; margin:0 auto;}
+
+
+
+
+/* Grid
+--------------------------------------------------------------------------------------------------------------- */
+.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{
+    display:inline-block; 
+    float:left; 
+    margin:0 0 0 18.06748466257669%; 
+    list-style:none; 
+    box-sizing:border-box;
+padding: 1%;}
+
+.first{margin-left:0; clear:left;}
+
+.one_quarter{width:24.69938650306748%;}
+.one_third{width:30.28834355828221%;}
+
+
+
+/* Header
+--------------------------------------------------------------------------------------------------------------- */
+
+#header {margin:10px 10px 10px 45px;
+  border-radius: 50px 20px;}
+#header {
+    text-align: center;
+  
+    padding: 80px;
+    background-image: url(images/tomatosss.jpg);
+}
+#header h1{
+    margin:0; 
+    font-size:80px; 
+    color: gold; 
+  font-family: 'Fredoka One', cursive;}
+
+
+/* Intro
+--------------------------------------------------------------------------------------------------------------- */
+#intro{padding:20px 0;}
+
+#intro article{text-align:center; opacity:.5;}
+#intro article:hover{opacity:1;}
+#intro article *{display:block; width:100%; margin:0; padding:0; box-sizing:border-box;}
+#intro article .heading{padding:30px 25px; font-size:18px;}
+#intro article ul{padding:20px 15px; font-style:italic;}
+#intro article ul li{padding:12px 0;}
+#intro article .link a{padding:20px 0; text-transform:uppercase; font-weight:bold;}
+
+
+
+
+/* Colours
+--------------------------------------------------------------------------------------------------------------- */
+body{color:#888888; background-color:#111111;}
+
+
+.btn{border-color:#8ABA56;}
+.btn:hover{color:#FFFFFF; background-color:#8ABA56;}
+
+
+
+
+/* Intro */
+#intro article .heading{color:#292929; background-color:#F3F3F3;}
+#intro article ul{color:#888888; background-color:#FFFFFF;}
+#intro article .link a{color:#FFFFFF; background-color:brown;}
+
+
+/* navbar */
+
+.topnav {
+  overflow: hidden;
+  background-color: darkred;
+    opacity: 75%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: crimson;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Must be after 180 => 900 - do not include in previous statements with the same parameters */
+@media screen and (min-width:180px) and (max-width:750px) {
+	#latestposts li figure, #latestposts li article{margin:0;}
+	#latestposts li figure{float:left; margin-right:20px;}
+}
+/* Must be after 180 => 900 - do not include in previous statements with the same parameters */
+@media screen and (min-width:180px) and (max-width:500px) {
+	#latestposts li figure{float:none; margin:0 0 20px 0;}
+}
+
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:978px) {
+	#topbar, #header, #intro, #breadcrumb, .container, #cta, #footer, #copyright{max-width:978px;}
+}
+
+
+/* Other
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:650px) {
+	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
+	.scrollable table{margin:0; padding:0; white-space:nowrap;}
+}
