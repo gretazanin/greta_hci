@@ -205,12 +205,12 @@ body{color:#888888; background-color:#111111;}
 
 
 /* Intro */
-#intro article .heading{color:#292929; background-color:#F3F3F3;
+#intro article .heading{color:#292929; background-color:#F3F3F3; font-size: 88%;
 margin-top: 10%;}
 
 #intro article ul{color:#888888; background-color:#FFFFFF;}
 
-#intro article .link a{color:#FFFFFF; background-color:brown; margin-bottom: 5%;}
+#intro article .link a{color:#FFFFFF; background-color:brown; margin-bottom: 15%; font-size: 88%;}
 
 
 /* navbar */
