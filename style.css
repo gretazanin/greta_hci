@@ -58,7 +58,9 @@ color: darkred;
     box-sizing:border-box;
     font-size: 90%;
 padding: 5%;
-color: white;}
+color: white;
+
+}
 
 
 
@@ -70,7 +72,7 @@ color: white;}
 .lectures {
     background-color: brown;
     display: inline-block;
-    margin-left: 42%;
+    margin-left: 42%;  
     text-align: center;
     float: none; 
     margin-bottom: 2%;
@@ -165,7 +167,8 @@ padding: 1%;}
     text-align: center;
   
     padding: 8%;
-    margin-bottom: 1%;
+        margin-top: 2%;
+    margin-bottom: 5%;
     background-image: url(images/tomatosss.jpg);
 }
 #header h1{
@@ -202,9 +205,12 @@ body{color:#888888; background-color:#111111;}
 
 
 /* Intro */
-#intro article .heading{color:#292929; background-color:#F3F3F3;}
+#intro article .heading{color:#292929; background-color:#F3F3F3;
+margin-top: 10%;}
+
 #intro article ul{color:#888888; background-color:#FFFFFF;}
-#intro article .link a{color:#FFFFFF; background-color:brown;}
+
+#intro article .link a{color:#FFFFFF; background-color:brown; margin-bottom: 5%;}
 
 
 /* navbar */
@@ -265,20 +271,6 @@ body{color:#888888; background-color:#111111;}
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .workshop {background-color: #3e8e41;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
