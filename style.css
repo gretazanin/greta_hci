@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fredoka+One&display=swap');
 
 
@@ -132,15 +134,13 @@ body{font-family: 'Balsamiq Sans', cursive;}
 .one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{
     display:inline-block; 
     float:left; 
-    margin:0 0 0 18.06748466257669%; 
+    margin: 2.5%;
+    margin-right: 18%;
     list-style:none; 
     box-sizing:border-box;
 padding: 1%;}
 
-.first{margin-left:0; clear:left;}
 
-.one_quarter{width:24.69938650306748%;}
-.one_third{width:30.28834355828221%;}
 
 
 
@@ -185,7 +185,7 @@ padding: 1%;}
 #intro article{text-align:center; opacity:.5;}
 #intro article:hover{opacity:1;}
 #intro article *{display:block; width:100%; margin:0; padding:0; box-sizing:border-box;}
-#intro article .heading{padding:30px 25px; font-size:18px;}
+#intro article .heading{padding:30px 25px; font-size: 15px;}
 #intro article ul{padding:20px 15px; font-style:italic;}
 #intro article ul li{padding:12px 0;}
 #intro article .link a{padding:20px 0; text-transform:uppercase; font-weight:bold;}
@@ -212,6 +212,11 @@ margin-top: 10%;}
 
 #intro article .link a{color:#FFFFFF; background-color:brown; margin-bottom: 15%; font-size: 88%;}
 
+
+.one_third {
+    float:left;
+    width: 29%;
+}
 
 /* navbar */
 
@@ -270,7 +275,7 @@ margin-top: 10%;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .workshop {background-color: #3e8e41;}
+.dropdown:hover .workshop {background-color: darkred;}
 
 
 
