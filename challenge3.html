@@ -181,11 +181,9 @@ Finally, I made a video that shows how the plant becomes happy after been taken 
         <h3>THE ANGRY PLANT</h3>         
         
         <p> 
-For this challenge I created a magic hat, which magically opens when its approached by needing hands. It’s made of cardboard and it’s composed of three main parts: the based made of an already existing fisherman hat, the main vertical structure made of thick cardboard and lastly the lid, which is made of a lighter cardboard and supported by a servomotor and duct tape. 
-Arduino allows this hat to properly function by activating the servo motor only when a movement is detected by the proximity sensor. The lid stays open for around 8 seconds, enough time for the owner to be able to insert something and take her/his hands away from it before its closure. 
-<br><br>
-What motivated me to create this device was my late-stage research on wearables, which was focused on gadgets and innovative tech clothing. My final product can be seen as both functional and artsy object. 
+For the Build and Design phase, I decided to go against all my research findings, and I created a plant that is angry and sleepy, a rather annoying creature that probably hates humans more than anything else. Here is the video. (or link to YT: <a target="_blank" href="https://youtu.be/qy8wcbY94D0">https://youtu.be/qy8wcbY94D0</a> )
 </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qy8wcbY94D0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                  
         <img src="" width="25%">
 
@@ -193,17 +191,45 @@ What motivated me to create this device was my late-stage research on wearables,
 
 <p>Here I place the code:</p>
     
-            <a target="_blank" href="images/challenge2/1.png"><img src="images/challenge2/1.png" height="300" > </a>
+            <a target="_blank" href="images/challenge3/chscreen1.png"><img src="images/challenge3/chscreen1.png" height="300" > </a>
             
-            <a target="_blank" href="images/challenge2/2.png"><img src="images/challenge2/2.png" height="300" > </a>
+            <a target="_blank" href="images/challenge3/chscreen2.png"><img src="images/challenge3/chscreen2.png" height="300" > </a>
+            
+            <a target="_blank" href="images/challenge3/chscreen3.png"><img src="images/challenge3/chscreen3.png" height="300" > </a>
+
 
     </div>
+    
+  <p>  How it works:
+Aluminium foil is used as a button: there is a signal going to one metal place and the signal is received by the other one which is going to the Arduino. So on one end it has power, on the other hand it goes to Arduino. 
+When it’s touching the digital read is high (bc they’re touching so it reads the signal) and when you lift it up the circuit brakes and the signal is low: using a while loop that will run where the button pin is low. While it runs the code it will constantly still check if the metals are touching again.  
+
+How is it relevant: The Angry Plant is a creature who doesn’t like to be bothered, especially by humans. It’s artificial, yet it’s still nature as it’s mainly made up of plant and soil. 
+<br>
+I got inspired by both the first research finding (Cozmo and Buddy) and also the second one (Animatronics: Pixar creatures) as I combined human traits into a technological device, adding the element of annoyance and robotic “scream”.  
+I got inspired by Harry Potter’s mandrake, a plant which reminds of a new born baby when it’s pulled off the ground. </p>
+
 
   
         <div class="card">
         <a name="Reflect"> <h1>REFLECTION</h1> </a>
 
   <p>
+topic:
+Growing up with Pixar’s creatures, it’s difficult not to envision a future where robots and humans interact on a daily basis, sharing their planet and their skills. Moreover, Affective Computing is aiming at developing emotion-detection technologies and allowing computational creatures to raise their empathizing skills towards human behaviours, hence there are going to be great changes in the coming decades that will reshape society as we know it today. While it might sound scary for some people who support a more traditionalistic view, I, on the other hand, find these innovations fundamental for the sake of our evolution. It’s exiting and insightful to wonder how my daily life could be altered if robots were active part of it: how would my study life be? Would there still be loneliness among humans? Would we be happier? I have plenty of questions about this topic, and although at times I fear a sort od robotic Darh Vader would drag our future generations into a life of darkness and slavery, I also trust in technology for the better, whose goal is to enhance humans’ lives, similarly to User Experience Designers’ ambitions.
+
+<br><br>
+
+my product:
+My angry plant is like a constantly irritated pet who only enjoys sleeping all day long. It has human traits and it communicates through its voice, its face and its friendly reminding before being completely pissed: a countdown. It’s basically like saying “hey, you have a couple of seconds to put me back where you found me and let me sleep before I start screaming angrily”.
+What inspired me greatly in making this creature is Harry Potter’s mandrake, a sort of plant who starts screaming/crying when pulled off the ground. It reminds of a baby who gets waken up against his will. <br> 
+      <img src="images/challenge3/mandrake.gif" height="200px"> <br>
+Before starting to design the technology for this challepxe, I thought about making a “buddy”, a “pet friend” who greets its human friend or moves like a dog or responds to human needs. I then realised it would be more interesting trying to empathize with the object rather than fulfilling our need as humans. Hence, I created a stubborn, hateful entity with specific characteristics, that could easily be play a role in a Pixar movie.
+<br><br>
+my experience with the technology:
+I encountered many difficulties while coding the angry plant. Some of these were related to the physical prototype and its lack of space, others concerned the application of the code.
+In regards to the code, the most difficult part was interrupting the countdown when the pot was placed back on the aluminium foil. It took me long time to understand where the flaw was but eventually, with the help of the teachers, I made it happen. 
+It was a fun project and I was happy to incorporate some drawings into the concept. Arduino allows me to shape my imaginary creatures into real creation and although it requires a lot of time and tinkering, the result it’s extremely satisfying.
 
 </p>
    
@@ -238,6 +264,6 @@ What motivated me to create this device was my late-stage research on wearables,
     
 
   </div> 
-             <img src="images/challenge2/hat1.png" width="75%">
+             <img src="images/challenge3/plantyplant.png" width="75%">
              
     </div></body></html>
